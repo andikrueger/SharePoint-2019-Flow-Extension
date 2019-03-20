@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+ 
+# Dependency directories
+node_modules
+ 
+# Build generated files
+dist
+lib
+solution
+temp
+*.spapp
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs
+bin
+obj
+ 
+# Resx Generated Code
+*.resx.ts
+ 
+# Styles Generated Code
+*.scss.ts 
