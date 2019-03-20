@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-2019-flow-command-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/sharePoint2019FlowCommand/SharePoint2019FlowCommandCommandSet.js",
+          "manifest": "./src/extensions/sharePoint2019FlowCommand/SharePoint2019FlowCommandCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePoint2019FlowCommandCommandSetStrings": "lib/extensions/sharePoint2019FlowCommand/loc/{locale}.js"
+  }
+}

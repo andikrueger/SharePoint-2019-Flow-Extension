@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-2019-flow-command-client-side-solution",
+    "id": "dc61ab73-2dc8-46a6-a4e8-f8e5889e8bfc",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "SharePoint 2019 Flow Command List Extension",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "ba87f73e-4830-448a-a123-93a10e13c235",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-2019-flow-command.sppkg"
+  }
+}

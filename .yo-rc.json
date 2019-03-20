@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.8.0",
+    "libraryName": "share-point-2019-flow-command",
+    "libraryId": "dc61ab73-2dc8-46a6-a4e8-f8e5889e8bfc",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
