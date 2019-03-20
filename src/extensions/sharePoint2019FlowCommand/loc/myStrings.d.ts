@@ -1,6 +1,9 @@
 declare interface ISharePoint2019FlowCommandCommandSetStrings {
-  Command1: string;
-  Command2: string;
+  FlowCommandLabel: string;
+  LoadingFlowsCommandLabel: string;
+  AddFlow: string;
+  ExistingFlows: string;
+  ConfigureFlows: string;
 }
 
 declare module 'SharePoint2019FlowCommandCommandSetStrings' {

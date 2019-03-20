@@ -1,6 +1,9 @@
-define([], function() {
+define([], function () {
   return {
-    "Command1": "Command 1",
-    "Command2": "Command 2"
+    FlowCommandLabel: "Flow",
+    LoadingFlowsCommandLabel: "No flows loaded.",
+    AddFlow: "Create a flow",
+    ExistingFlows: "See your flows",
+    ConfigureFlows: "Configure flows"
   }
 });
